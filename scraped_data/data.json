@@ -1,0 +1,232 @@
+{
+  "1": {
+    "position": 1,
+    "price": 5.19,
+    "shop_name": "wirleben.de"
+  },
+  "2": {
+    "position": 2,
+    "price": 5.26,
+    "shop_name": "Amazon Marketplace"
+  },
+  "3": {
+    "position": 3,
+    "price": 5.44,
+    "shop_name": "meine-onlineapo.de"
+  },
+  "4": {
+    "position": 4,
+    "price": 5.45,
+    "shop_name": "ventalis-shop.de"
+  },
+  "5": {
+    "position": 5,
+    "price": 5.56,
+    "shop_name": "paul-pille.de"
+  },
+  "6": {
+    "position": 6,
+    "price": 5.59,
+    "shop_name": "apolux.de"
+  },
+  "7": {
+    "position": 7,
+    "price": 5.65,
+    "shop_name": "pharmeo.de"
+  },
+  "8": {
+    "position": 8,
+    "price": 5.67,
+    "shop_name": "juvalis.de"
+  },
+  "9": {
+    "position": 9,
+    "price": 5.68,
+    "shop_name": "medikamente-per-klick.de"
+  },
+  "10": {
+    "position": 10,
+    "price": 5.7,
+    "shop_name": "die-beraterapotheke.de"
+  },
+  "11": {
+    "position": 11,
+    "price": 5.71,
+    "shop_name": "sparmed.de"
+  },
+  "12": {
+    "position": 12,
+    "price": 5.8,
+    "shop_name": "aponeo.de"
+  },
+  "13": {
+    "position": 13,
+    "price": 5.88,
+    "shop_name": "bodfeld-apotheke.de"
+  },
+  "14": {
+    "position": 14,
+    "price": 5.95,
+    "shop_name": "delmed.de"
+  },
+  "15": {
+    "position": 15,
+    "price": 5.99,
+    "shop_name": "mediherz-shop.de"
+  },
+  "16": {
+    "position": 16,
+    "price": 6.1,
+    "shop_name": "ipill.de"
+  },
+  "17": {
+    "position": 17,
+    "price": 6.41,
+    "shop_name": "besamex.de"
+  },
+  "18": {
+    "position": 18,
+    "price": 6.69,
+    "shop_name": "unserekleineapotheke.de"
+  },
+  "19": {
+    "position": 19,
+    "price": 6.72,
+    "shop_name": "pharmasana.de"
+  },
+  "20": {
+    "position": 20,
+    "price": 6.95,
+    "shop_name": "claras-apotheke.de"
+  },
+  "21": {
+    "position": 21,
+    "price": 6.98,
+    "shop_name": "fliegende-pillen.de"
+  },
+  "22": {
+    "position": 22,
+    "price": 7.1,
+    "shop_name": "mycare.de"
+  },
+  "23": {
+    "position": 23,
+    "price": 7.14,
+    "shop_name": "aposalis.de"
+  },
+  "24": {
+    "position": 24,
+    "price": 7.27,
+    "shop_name": "apodiscounter.de"
+  },
+  "25": {
+    "position": 25,
+    "price": 7.4,
+    "shop_name": "sanicare.de"
+  },
+  "26": {
+    "position": 26,
+    "price": 7.49,
+    "shop_name": "docmorris.de"
+  },
+  "27": {
+    "position": 27,
+    "price": 7.49,
+    "shop_name": "disapo.de"
+  },
+  "28": {
+    "position": 28,
+    "price": 7.66,
+    "shop_name": "apondo.de"
+  },
+  "29": {
+    "position": 29,
+    "price": 7.69,
+    "shop_name": "volksversand.de"
+  },
+  "30": {
+    "position": 30,
+    "price": 7.77,
+    "shop_name": "vitenda.de"
+  },
+  "31": {
+    "position": 31,
+    "price": 7.9,
+    "shop_name": "aliva.de"
+  },
+  "32": {
+    "position": 32,
+    "price": 8.03,
+    "shop_name": "eBay"
+  },
+  "33": {
+    "position": 33,
+    "price": 8.07,
+    "shop_name": "abc-arznei.de"
+  },
+  "34": {
+    "position": 34,
+    "price": 8.19,
+    "shop_name": "apo.com"
+  },
+  "35": {
+    "position": 35,
+    "price": 8.45,
+    "shop_name": "shop-apotheke.com"
+  },
+  "36": {
+    "position": 36,
+    "price": 8.49,
+    "shop_name": "douglas.de"
+  },
+  "37": {
+    "position": 37,
+    "price": 8.49,
+    "shop_name": "zurrose.de"
+  },
+  "38": {
+    "position": 38,
+    "price": 8.58,
+    "shop_name": "deutscheinternetapotheke.de"
+  },
+  "39": {
+    "position": 39,
+    "price": 8.59,
+    "shop_name": "apotheke.de"
+  },
+  "40": {
+    "position": 40,
+    "price": 8.59,
+    "shop_name": "versandapo.de"
+  },
+  "41": {
+    "position": 41,
+    "price": 8.75,
+    "shop_name": "shop.lamm-apotheke.com"
+  },
+  "42": {
+    "position": 42,
+    "price": 9.03,
+    "shop_name": "onfy.de"
+  },
+  "43": {
+    "position": 43,
+    "price": 9.29,
+    "shop_name": "medpex.de"
+  },
+  "44": {
+    "position": 44,
+    "price": 9.58,
+    "shop_name": "shop.adler-apotheke-brackwede.de"
+  },
+  "45": {
+    "position": 45,
+    "price": 9.67,
+    "shop_name": "bio-apo.de"
+  },
+  "46": {
+    "position": 46,
+    "price": 16.06,
+    "shop_name": "shop-apotheke.com"
+  }
+}
