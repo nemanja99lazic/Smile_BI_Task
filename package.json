@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "npx ts-node scripts/price-extraction-script.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "puppeteer": "^22.10.0"
+  }
+}
