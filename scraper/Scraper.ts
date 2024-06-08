@@ -89,6 +89,9 @@ export class Scraper
 
         let buttonPresent = true;
         const listElementsCount = await page.$$eval('.productOffers-listItemOfferPrice', elems => elems.length);
+        if(listElementsCount == 0) {
+            throw new Error("List elements count is 0.");
+        }
         while (buttonPresent) {
             try {
                 await page.waitForSelector(loadMoreSelector, Scraper.DEFAULT_WAIT_OPTIONS);
@@ -107,7 +110,7 @@ export class Scraper
             return anchorElems.map(el => el.getAttribute('data-dl-click'));
         });
 
-        for(let [index, element] of scrapedDataFromAnchor.entries()) {
+        for (let [index, element] of scrapedDataFromAnchor.entries()) {
             if(!element) {
                 continue;
             }
@@ -115,6 +118,11 @@ export class Scraper
             index++;
 
             const jsonifiedScrapedData = JSON.parse(element) as ItemInformatioFromListItem;
+            
+            if (Scraper.hasValidationErrors(jsonifiedScrapedData, element)) {
+                continue;
+            }
+
             this.scrapedItemsMap.set(index.toString(), {
                 position: index,
                 price: jsonifiedScrapedData.products[0].price,
@@ -155,5 +163,21 @@ export class Scraper
                 console.log(`Successfully wrote scraped data in a file with path ${Scraper.OUTPUT_FILE_NAME}`);
             }
         });
+    }
+
+    private static hasValidationErrors(element: ItemInformatioFromListItem, stringifiedElement: string): boolean {
+        let hasErrors = false;
+
+        if(!element.products[0].price) {
+            console.error("Price is undefined in a scraped element", JSON.stringify(stringifiedElement));
+            hasErrors = true;
+        }
+
+        if(!element.shop_name) {
+            console.error("Shop name is undefined in a scraped element", JSON.stringify(stringifiedElement));
+            hasErrors = true;
+        }
+
+        return hasErrors;
     }
 }
